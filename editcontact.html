@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Edit contact</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="contact.css" >
+  </head>
+  <body>
+    <br><a href="addcontact.html">Add a new contact</a><br>
+    <br><a href="contactHome.html">Access Contact Administration</a><br>
+
+    <h2>Edit Contact</h2>
+    <div class="container">
+      <div class="col-md-offset-2 col-md-4 clearfix">
+        <form id = "editcontactform" class="form-group form-auth">
+          <div>  First name: <input type="text" class="form-control" id="firstName"></div>
+          <div>  Last name: <input type="text" class="form-control" id="lastName"></div>
+          <div>  Phone:<input type="tel" class="form-control" id="phoneNumber"></div>
+          <div>  Email:<input type="email" class="form-control" id= "emailAddress"></div>
+          <button type="button" class="btn btn-primary btn-lg pull-right"  id="editButton" >EDIT </button>
+        </form>
+      </div>
+    </div>
+    <script type="text/javascript" src="contact.js"></script>
+   </body>
+</html>
